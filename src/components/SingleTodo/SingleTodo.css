@@ -1,0 +1,31 @@
+.todos__single {
+  display: flex;
+  width: 29.5%;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 15px;
+  background-image: url(https://img.freepik.com/free-photo/view-white-crumpled-paper_1194-7544.jpg?w=996&t=st=1708104251~exp=1708104851~hmac=d09c0ad15235783fb13b9f7a9c0b502a0718e9fe4a8a7201bd355a0750bf7cc7);
+}
+
+.todos__single--text {
+  flex: 1;
+  padding: 5px;
+  border: none;
+  font-size: 20px;
+}
+
+.todos__single--text:focus {
+  outline: none;
+}
+
+.icon {
+  margin-left: 10px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .todos__single {
+    width: 95%;
+  }
+}
